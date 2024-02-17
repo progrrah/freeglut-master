@@ -629,10 +629,6 @@ ENDMACRO()
 
 ADD_DEMO(Fractals        progs/demos/Fractals/fractals.c)
 ADD_DEMO(Fractals_random progs/demos/Fractals_random/fractals_random.c)
-ADD_DEMO(Main            progs/demos/Main/main.c)
-
-
-
 # pkg-config support, to install at $(libdir)/pkgconfig
 # Define static build dependencies
 IF(WIN32)
