@@ -44,7 +44,7 @@ set(SO_REV 0)		# increment if only internal changes happened between releases
 # re-declare it here so it will show up in the GUI.
 # by default, we want to build both
 OPTION(FREEGLUT_BUILD_SHARED_LIBS "Build FreeGLUT shared library." ON)
-OPTION(FREEGLUT_BUILD_STATIC_LIBS "Build FreeGLUT static library." ON)
+OPTION(FREEGLUT_BUILD_STATIC_LIBS "Build FreeGLUT static library." OFF)
 
 # option for whether warnings and errors should be printed
 OPTION(FREEGLUT_PRINT_ERRORS "Lib prints errors to stderr" ON)
