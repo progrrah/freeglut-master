@@ -1,5 +1,5 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.1 FATAL_ERROR)
-PROJECT(freeglut LANGUAGES C)
+PROJECT(freeglut LANGUAGES C CXX)
 
 if (POLICY CMP0072)
     # This policy sets libOpenGL.so (GLVND) as the default GL library to link
@@ -599,7 +599,7 @@ INSTALL(FILES ${FREEGLUT_HEADERS} DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/GL COM
 
 
 # Optionally build demos, on by default.
-option( FREEGLUT_BUILD_DEMOS "Build FreeGLUT demos." ON )
+option( FREEGLUT_BUILD_DEMOS "Build FreeGLUT demos." OFF )
 
 SET(DEMO_LIBS ${OPENGL_glu_LIBRARY} ${LIBS})
 # lib m for math, not needed on windows
@@ -703,3 +703,7 @@ INSTALL(
     DESTINATION ${FREEGLUT_INSTALL_CMAKECONFIGDIR}
     COMPONENT Devel
 )
+
+add_executable(main executable/main.cpp)
+target_link_libraries(main PRIVATE freeglut)
+include_directories(executable)

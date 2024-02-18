@@ -15,7 +15,8 @@
 			"INSTALL",
 			"TARGET_COMPILE_DEFINITIONS",
 			"ADD_DEFINITIONS",
-			"INCLUDE_DIRECTORIES"
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -73,6 +74,12 @@
 				"file" : 0,
 				"line" : 468,
 				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 709,
+				"parent" : 0
 			}
 		]
 	},
@@ -121,6 +128,10 @@
 				{
 					"backtrace" : 8,
 					"path" : "C:/Projects/freeglut-master/build"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projects/freeglut-master/executable"
 				}
 			],
 			"language" : "C",
@@ -204,6 +215,10 @@
 				{
 					"backtrace" : 8,
 					"path" : "C:/Projects/freeglut-master/build"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projects/freeglut-master/executable"
 				}
 			],
 			"language" : "RC",

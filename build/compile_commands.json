@@ -469,26 +469,8 @@
 },
 {
   "directory": "C:/Projects/freeglut-master/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/Fractals.dir/includes_C.rsp  -Wall -pedantic -g -o CMakeFiles\\Fractals.dir\\progs\\demos\\Fractals\\fractals.c.obj -c C:\\Projects\\freeglut-master\\progs\\demos\\Fractals\\fractals.c",
-  "file": "C:/Projects/freeglut-master/progs/demos/Fractals/fractals.c",
-  "output": "CMakeFiles/Fractals.dir/progs/demos/Fractals/fractals.c.obj"
-},
-{
-  "directory": "C:/Projects/freeglut-master/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/Fractals_static.dir/includes_C.rsp  -Wall -pedantic -g -o CMakeFiles\\Fractals_static.dir\\progs\\demos\\Fractals\\fractals.c.obj -c C:\\Projects\\freeglut-master\\progs\\demos\\Fractals\\fractals.c",
-  "file": "C:/Projects/freeglut-master/progs/demos/Fractals/fractals.c",
-  "output": "CMakeFiles/Fractals_static.dir/progs/demos/Fractals/fractals.c.obj"
-},
-{
-  "directory": "C:/Projects/freeglut-master/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/Fractals_random.dir/includes_C.rsp  -Wall -pedantic -g -o CMakeFiles\\Fractals_random.dir\\progs\\demos\\Fractals_random\\fractals_random.c.obj -c C:\\Projects\\freeglut-master\\progs\\demos\\Fractals_random\\fractals_random.c",
-  "file": "C:/Projects/freeglut-master/progs/demos/Fractals_random/fractals_random.c",
-  "output": "CMakeFiles/Fractals_random.dir/progs/demos/Fractals_random/fractals_random.c.obj"
-},
-{
-  "directory": "C:/Projects/freeglut-master/build",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe -DFREEGLUT_STATIC -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/Fractals_random_static.dir/includes_C.rsp  -Wall -pedantic -g -o CMakeFiles\\Fractals_random_static.dir\\progs\\demos\\Fractals_random\\fractals_random.c.obj -c C:\\Projects\\freeglut-master\\progs\\demos\\Fractals_random\\fractals_random.c",
-  "file": "C:/Projects/freeglut-master/progs/demos/Fractals_random/fractals_random.c",
-  "output": "CMakeFiles/Fractals_random_static.dir/progs/demos/Fractals_random/fractals_random.c.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DHAVE_CONFIG_H -DWINVER=0x0601 -D_CRT_SECURE_NO_WARNINGS -D_WIN32_WINNT=0x0601 @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\executable\\main.cpp.obj -c C:\\Projects\\freeglut-master\\executable\\main.cpp",
+  "file": "C:/Projects/freeglut-master/executable/main.cpp",
+  "output": "CMakeFiles/main.dir/executable/main.cpp.obj"
 }
 ]

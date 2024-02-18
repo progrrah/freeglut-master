@@ -2,22 +2,23 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/Fractals.exe"
+			"path" : "bin/main.exe"
 		},
 		{
-			"path" : "bin/Fractals.pdb"
+			"path" : "bin/main.pdb"
 		}
 	],
-	"backtrace" : 2,
+	"backtrace" : 1,
 	"backtraceGraph" : 
 	{
 		"commands" : 
 		[
-			"ADD_EXECUTABLE",
-			"ADD_DEMO",
+			"add_executable",
+			"target_link_libraries",
 			"TARGET_LINK_LIBRARIES",
 			"ADD_DEFINITIONS",
-			"INCLUDE_DIRECTORIES"
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -29,22 +30,22 @@
 				"file" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 0,
 				"file" : 0,
-				"line" : 630,
+				"line" : 707,
 				"parent" : 0
 			},
 			{
-				"command" : 0,
+				"command" : 1,
 				"file" : 0,
-				"line" : 613,
-				"parent" : 1
+				"line" : 708,
+				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 614,
-				"parent" : 1
+				"line" : 567,
+				"parent" : 0
 			},
 			{
 				"command" : 3,
@@ -75,6 +76,12 @@
 				"file" : 0,
 				"line" : 468,
 				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 709,
+				"parent" : 0
 			}
 		]
 	},
@@ -84,7 +91,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -pedantic -g"
+					"fragment" : "-g"
 				}
 			],
 			"defines" : 
@@ -119,9 +126,13 @@
 				{
 					"backtrace" : 8,
 					"path" : "C:/Projects/freeglut-master/build"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Projects/freeglut-master/executable"
 				}
 			],
-			"language" : "C",
+			"language" : "CXX",
 			"sourceIndexes" : 
 			[
 				0
@@ -131,17 +142,17 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 3,
+			"backtrace" : 2,
 			"id" : "freeglut::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "Fractals::@6890427a1f51a3e7e1df",
+	"id" : "main::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -pedantic -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -149,27 +160,7 @@
 				"role" : "flags"
 			},
 			{
-				"backtrace" : 3,
-				"fragment" : "-lglu32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lopengl32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lwinmm",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
-				"fragment" : "-lgdi32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 3,
+				"backtrace" : 2,
 				"fragment" : "lib\\libfreeglut.dll.a",
 				"role" : "libraries"
 			},
@@ -193,10 +184,10 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
-	"name" : "Fractals",
-	"nameOnDisk" : "Fractals.exe",
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -215,9 +206,9 @@
 	"sources" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "progs/demos/Fractals/fractals.c",
+			"path" : "executable/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
